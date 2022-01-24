@@ -1,0 +1,208 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+}
+/* main content */
+.main-conteiner{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background: white;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px
+}
+/* about me section */
+.about-me-profession{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+.about-me-section{
+    margin: 0 0 40px 0;
+}
+.about-me-name{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000;
+    margin: 0 0 25px 0;
+}
+.about-me-text{
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+/* my project section */
+.my-project-section{
+    margin-bottom: 50px;
+}
+.my-project-list{
+    padding: 0 0 0 17px;
+}
+.my-projects-item{
+    color: #000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.my-projects-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+.my-project-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.my-projects-bracet{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+}
+
+.main-content-section{
+    padding: 100px 90px;
+
+}
+.main-content-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000;
+    margin-bottom: 10px;
+}
+/* my work experiance */
+.my-work-experience-company-block{
+    margin: 0 15px 0 0;
+}
+.my-work-experience-position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0 0 10px 0;
+}
+.my-work-experience-period{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0 0 10px 0;
+}
+.my-work-experience-devider{
+    color: #000;
+}
+.my-work-experience-duties{
+    padding: 0 0 0 18px;
+}
+.my-work-experience-company{
+    color: #FB6D3A;
+}
+.my-work-experience-duty{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+/* education */
+.my-education-place{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin: 10px 0 0 0;
+}
+.my-education-specialty{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin: 10px 0 0 0;
+}
+.my-education-period{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 10px 0 0 0;
+}
+.my-education-devider{
+    color: #000;
+}
+
+/* sidebar section */
+.sidebar-section{
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+}
+
+.soft-scills-section,
+.tech-scills-section,
+.contacts-section{
+    margin: 50px 0 0 40px
+}
+.sidebar-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: white;
+    margin: 10px;
+    padding: 0 0 0 8px;
+}
+/* contacts section */
+.contacts-section-type{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    margin-right: 5px;
+    padding: 0 0 0 15px;
+}
+.contacts-section-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8E949C;
+}
+
+/* tech and soft skills section */
+.tech-soft-skills-list{
+    padding: 0 0 0 36px;
+}
+
+.tech-soft-skills-list-item{
+    color: #FB6D3A;
+}
+.tech-soft-skills-list-item-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #E3E4E6;
+}
