@@ -9,7 +9,7 @@ body {
     width: 1200px;
     background: white;
     margin: 40px auto;
-    box-shadow: 6px 6px 20px
+    /* box-shadow: 6px 6px 20px */
 }
 /* about me section */
 .about-me-profession{
@@ -162,8 +162,9 @@ body {
 
 .soft-scills-section,
 .tech-scills-section,
-.contacts-section{
-    margin: 50px 0 0 40px
+.contacts-section,
+.langugage-section{
+    margin: 20px 0 0 40px
 }
 .sidebar-title{
     font-style: normal;
@@ -184,6 +185,8 @@ body {
     padding: 0 0 0 15px;
 }
 .contacts-section-link{
+    display: block;
+    margin-left: 15px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -191,15 +194,22 @@ body {
     color: #8E949C;
 }
 
+.city {
+    margin-top: 0;
+}
+
 /* tech and soft skills section */
-.tech-soft-skills-list{
+.tech-soft-skills-list,
+.lenguage-list{
     padding: 0 0 0 36px;
 }
 
-.tech-soft-skills-list-item{
+.tech-soft-skills-list-item,
+.lenguage-list-item{
     color: #FB6D3A;
 }
-.tech-soft-skills-list-item-text{
+.tech-soft-skills-list-item-text,
+.lenguage-list-item-text{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
